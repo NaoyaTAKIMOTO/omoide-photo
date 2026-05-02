@@ -3,7 +3,7 @@
 ## 未完了
 
 - [ ] GitHub PagesにカスタムドメインとHTTPS設定
-  1. https://github.com/NaoyaTAKIMOTO/remember-photo/settings/pages を開く
+  1. https://github.com/NaoyaTAKIMOTO/omoide-photo/settings/pages を開く
   2. Custom domain に `omoidephotos.com` を入力して Save
   3. DNS反映後に「Enforce HTTPS」にチェック
   - DNS反映には最大48時間かかる場合あり
