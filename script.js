@@ -16,4 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const elementsToAnimate = document.querySelectorAll('.fade-in-up');
   elementsToAnimate.forEach(el => observer.observe(el));
+
+  document.querySelectorAll('a[href*="forms.gle"]').forEach(el => {
+    el.addEventListener('click', () => {
+      gtag('event', 'contact_click', {
+        event_category: 'engagement',
+        event_label: '問い合わせボタン'
+      });
+    });
+  });
 });
